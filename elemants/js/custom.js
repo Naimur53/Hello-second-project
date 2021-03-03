@@ -112,3 +112,12 @@ window.onload=function(){
 	$('.circleGraphic4').circleGraphic({'color':'#fff'});
 
 }
+/*mesonri js */
+$('.grid').isotope({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    masonry: {
+      // use outer width of grid-sizer for columnWidth
+      columnWidth: '.grid-sizer'
+    }
+  })
