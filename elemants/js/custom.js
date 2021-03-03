@@ -103,3 +103,12 @@ jsFileLocation:"revolution/js/",
         });
     }
 });	
+/*for progres bar scripts */
+window.onload=function(){
+	$('.circleGraphic1').circleGraphic();
+	$('.circleGraphic2').circleGraphic({'color':'#fff'});
+	$('.circleGraphic3').circleGraphic({'color':'#fff'});
+
+	$('.circleGraphic4').circleGraphic({'color':'#fff'});
+
+}

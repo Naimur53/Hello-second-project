@@ -25,3 +25,23 @@ body{
     color:#141414;
     font-size:16px;
 }
+.expartice{
+    background: linear-gradient(to right, #fa173b, #fb3d35, #fb5531, #fa692e, #f97a2e);
+
+}
+.expartice h1{
+    font-size:46px;
+}
+.position p{
+    position: relative;
+
+}
+.position p::after{
+    position:absolute;
+    content:"";
+    width:1px;
+    height:20px;
+    background-color: white;
+    top:20px;
+    left: 150px;
+}
