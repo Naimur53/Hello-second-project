@@ -50,10 +50,12 @@ body{
     width: 16.6666%;
     height: auto;
     
-  }
-  
-  .grid-item--width2 { width: 33.33333%; }
-  
-.x{
-    margin-top:-270px;
 }
+.grid-sizer{
+    width:16.6666%;
+}
+
+.grid-item--width2{
+    width: 33.33333%; 
+}
+ 
