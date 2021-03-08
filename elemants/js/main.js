@@ -104,40 +104,46 @@
                 }
             });
         }
-    }); /*ready*/
-
-    //progress bar
-    window.onload = function() {
-        $('.circleGraphic1').circleGraphic();
-        $('.circleGraphic2').circleGraphic({ 'color': '#fff' });
-        $('.circleGraphic3').circleGraphic({ 'color': '#fff' });
-
-        $('.circleGraphic4').circleGraphic({ 'color': '#fff' });
-
-        //preloader
-        $('#preloader').fadeOut('slow',function(){$(this).remove();});
-
-    }
-
-    //masonry
-    var $grid = $('.grid').isotope({
-        itemSelector: '.grid-item',
-        percentPosition: true,
-        masonry: {
-            // use outer width of grid-sizer for columnWidth
-            columnWidth: '.grid-sizer'
-        }
-    })
-    $('.filter-button-group').on( 'click', 'button', function() {
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue });
-      });
-
-
-
-
-
-
-
-    
+    }); /*ready*/ 
 })(jQuery);
+
+ //progress bar
+ window.onload = function() {
+    $('.circleGraphic1').circleGraphic();
+    $('.circleGraphic2').circleGraphic({ 'color': '#fff' });
+    $('.circleGraphic3').circleGraphic({ 'color': '#fff' });
+
+    $('.circleGraphic4').circleGraphic({ 'color': '#fff' });
+
+    //preloader
+    $('#preloader').fadeOut('slow',function(){$(this).remove();});
+
+}
+
+//masonry
+var $grid = $('.grid').isotope({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    masonry: {
+        // use outer width of grid-sizer for columnWidth
+        columnWidth: '.grid-sizer'
+    }
+})
+//img button
+$('.filter-button-group').on( 'click', 'button', function() {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({ filter: filterValue });
+  });
+ 
+
+  //masonry for blog
+$('.blog-container').isotope({
+    itemSelector: '.single-blog',
+    percentPosition: true,
+    masonry: {
+        // use outer width of grid-sizer for columnWidth
+        columnWidth: '.blog-sizer'
+    }
+})
+//for background pralalaxie
+$('.parallaxie').parallaxie();
