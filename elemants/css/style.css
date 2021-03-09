@@ -218,7 +218,24 @@ textarea.form-control{
      color:white;
     
  }
+  
  .heading-bottom-border{
      width:50px;
      color:red;
+ }
+ .post-contant-img-div{
+     position:relative;
+ }
+.post-contant-img-overlay{
+     position:absolute;
+     left:0px;
+     top:0px;
+     width:100%;
+     height:100%;
+     background:rgba(243,86,84,0.7);
+     opacity: 0;
+     transition:.3s;
+ }
+ .post-contant-img-div:hover .post-contant-img-overlay{
+    opacity:1;
  }
