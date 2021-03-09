@@ -178,3 +178,19 @@ textarea.form-control{
     font-size: 20px;
     color:white;
 }
+.contant-baner h2{
+    font-size:46px;
+    font-weight:400px;
+    font-family: 'Playfair Display', sans-serif;
+    text-transform:capitalize;  
+}
+    
+.contant-baner h2 span{
+    font-size:72px;
+    font-weight:700px;
+    font-family: 'Playfair Display', sans-serif;
+    text-transform:uppercase; 
+}
+   
+
+ 
