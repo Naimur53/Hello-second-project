@@ -114,22 +114,27 @@ body{
     border-color:#fd9736;
     
 }
+.contact-single {
+    z-index: 1;
+    display: block;
+}
 .contact-section{
     position:relative;
 }
-#shoe-01,#shoe-01,#shoe-01,#shoe-01,#shoe-01,#shoe-01{
+#shoe-1, #shoe-2, #shoe-3, #shoe-4, #shoe-5, #shoe-6{
     position:absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
+    z-index:1;
 
 }
 #shoe-1{
     background:url(../images/p1.png) no-repeat;
 }
 #shoe-2{
-    background:url(../images/p1.png) no-repeat;
+    background:url(../images/p2.png) no-repeat;
 }
 #shoe-3{
     background:url(../images/p3.png) no-repeat;
@@ -142,4 +147,34 @@ body{
 }
 #shoe-6{
     background:url(../images/p6.png) no-repeat;
+}
+.form-width{
+    width:570px;
+}
+.form-width input{
+    border-radius:0px;
+}
+textarea.form-control{
+    border-radius:0px;
+}
+.form-width button{
+    border-radius:0px;
+}
+.no-padding{
+    padding: 0px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.footer-text p{
+    font-size:13px;
+}
+.social i{
+  
+    width:25px;
+    height:25px;
+    line-height:25px;
+    border-radius:100%;
+    background-color: gray;
+    font-size: 20px;
+    color:white;
 }

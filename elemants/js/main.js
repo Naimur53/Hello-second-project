@@ -147,3 +147,4 @@ $('.blog-container').isotope({
 })
 //for background pralalaxie
 $('.parallaxie').parallaxie();
+ 
