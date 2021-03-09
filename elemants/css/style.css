@@ -191,6 +191,30 @@ textarea.form-control{
     font-family: 'Playfair Display', sans-serif;
     text-transform:uppercase; 
 }
-   
+.heart{
+    width: 100px;
+    height: 100px;
 
+}
  
+.heart i{
+    
+    font-size:35px;
+    color:red;
+}
+ ul{
+     list-style: none;
+     display:flex;
+     flex-direction: row;
+     justify-content: space-around;
+
+ }
+ ul li a {
+     transition:.3s;
+     color:#7777;
+ }
+ ul li:hover a{
+     background-color:red;
+     color:white;
+    
+ }
