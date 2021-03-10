@@ -273,3 +273,15 @@ h6{
 .istagram-img img{
     padding-bottom:10px
 }
+.all-tag ul li {
+    flex-basis: 120px;
+    border:1px solid #dfdfdf;
+}
+.all-tag ul a {
+    color: #000;
+    font-size: 14px;
+    color:#666666;
+    padding: 7px 0;
+    display: block;
+    text-align: center;
+}
