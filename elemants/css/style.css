@@ -3,7 +3,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Playfair Display', serif; */
 }
-
+ul{
+    list-style: none;
+}
  a{
      text-decoration:none;
  }
@@ -202,18 +204,18 @@ textarea.form-control{
     font-size:35px;
     color:red;
 }
- ul{
+.blog-social ul{
      list-style: none;
      display:flex;
      flex-direction: row;
      justify-content: space-around;
 
  }
- ul li a {
+ .blog-social ul li a {
      transition:.3s;
      color:#7777;
  }
- ul li:hover a{
+ .blog-social ul li:hover a{
      background-color:red;
      color:white;
     
@@ -297,4 +299,7 @@ h6{
 .category-text ul li:hover{
     transform:translateX(5px);
   
+}
+.media-hidden{
+    display: none;
 }

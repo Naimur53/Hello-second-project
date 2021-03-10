@@ -151,3 +151,15 @@ $('.parallaxie').parallaxie();
  $(".reply-btn1").click(function(){
      $(".reply-toggle").slideToggle(300);
  })
+//lode more 
+ $(".moreBox").slice(0, 3).show();
+ if ($(".blogBox:hidden").length != 0) {
+   $("#loadMore").show();
+ }   
+ $("#loadMore").on('click', function (e) {
+   e.preventDefault();
+   $(".moreBox:hidden").slice(0, 6).slideDown();
+   if ($(".moreBox:hidden").length == 0) {
+     $("#loadMore").fadeOut('slow');
+   }
+ });
