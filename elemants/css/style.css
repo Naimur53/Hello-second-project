@@ -251,3 +251,12 @@ textarea.form-control{
     outline: 0;
     box-shadow: none;
 }
+.border-edit input{
+ border:1px solid #ccc;
+}
+.form-control:focus {
+     
+    border-color:#000;  
+    outline: 0;
+    box-shadow:none;
+}
