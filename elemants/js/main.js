@@ -152,14 +152,20 @@ $('.parallaxie').parallaxie();
      $(".reply-toggle").slideToggle(300);
  })
 //lode more 
- $(".moreBox").slice(0, 3).show();
- if ($(".blogBox:hidden").length != 0) {
-   $("#loadMore").show();
- }   
+ $(".media-hidden").slice(0, 1).show();
  $("#loadMore").on('click', function (e) {
    e.preventDefault();
-   $(".moreBox:hidden").slice(0, 6).slideDown();
-   if ($(".moreBox:hidden").length == 0) {
+   $(".media-hidden:hidden").slice(0, 1).slideDown();
+   if ($(".media-hidden:hidden").length == 0) {
      $("#loadMore").fadeOut('slow');
    }
  });
+//nav background
+ function scrollToSection(event) {
+    event.preventDefault();
+    var $section = $($(this).attr('href')); 
+    $('html, body').animate({
+      scrollTop: $section.offset().top
+    }, 500);
+  }
+  $('[data-scroll]').on('click', scrollToSection);
