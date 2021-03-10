@@ -260,3 +260,16 @@ textarea.form-control{
     outline: 0;
     box-shadow:none;
 }
+h6{
+    font-size:10px;
+     margin-top:2px;
+     padding: 0px;
+}
+.popular-post p{
+    font-size: 16px;
+    margin:0px;
+    padding: 0px;
+}
+.istagram-img img{
+    padding-bottom:10px
+}
