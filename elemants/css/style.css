@@ -239,3 +239,15 @@ textarea.form-control{
  .post-contant-img-div:hover .post-contant-img-overlay{
     opacity:1;
  }
+ .reply-toggle{
+     display: flex;
+     display: none;
+     padding: 1rem;
+     margin-left: 3rem;
+     padding-left: 3rem;
+     
+ }
+ .btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}

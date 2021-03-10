@@ -147,4 +147,7 @@ $('.blog-container').isotope({
 })
 //for background pralalaxie
 $('.parallaxie').parallaxie();
- 
+ //for reply buttun 
+ $(".reply-btn1").click(function(){
+     $(".reply-toggle").slideToggle(300);
+ })
