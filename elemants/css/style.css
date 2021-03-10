@@ -287,3 +287,14 @@ h6{
     text-align: center;
    
 }
+.category-text ul li  { 
+    transition: .7s;
+}
+.category-text ul li:hover a{ 
+    background-color:transparent;
+    color: #000 !important;
+}
+.category-text ul li:hover{
+    transform:translateX(5px);
+  
+}
