@@ -169,3 +169,21 @@ $('.parallaxie').parallaxie();
     }, 500);
   }
   $('[data-scroll]').on('click', scrollToSection);
+//nav backgroun on scroll   
+  $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    if (scroll > 840) {
+      $(".navbar").css("background" , "yellow");
+    }
+
+    else{
+        $(".navbar").css({"background-color": "transparent", "transition": ".7s"});	
+    }
+    if (scroll > 410) {
+        $(".blog-single-navbar").css("background" , "yellow");
+      }
+  
+      else{
+          $(".blog-single-navbar").css({"background-color": "transparent", "transition": ".7s"});	
+      }
+})
