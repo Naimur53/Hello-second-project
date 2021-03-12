@@ -65,12 +65,32 @@ px      68    160    252    344    436    */
 		font-size: 25px;
 
 	}
+	.blog-social ul{ 
+
+		flex-direction: column;
+ 
+	}
+	.blog-social ul li{ 
+
+		 
+		  margin-bottom:20px;
+	}
+	
 
 }
 
-@media only screen and (min-width: 500px) and (max-width: 500px) {
+@media only screen and (min-width: 200px) and (max-width: 400px) {
 
-	
+	.blog-social ul{ 
+
+		flex-direction: column;
+ 
+	}
+	.blog-social ul li{ 
+
+		 
+		  margin-bottom:20px;
+	}
 }
 
 /*	Retina media query.
